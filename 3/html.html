@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <style>
+        .d1,.d2,.d3{
+            background-color: aqua;
+            width: 100%;
+            height: 100vh;
+        }
+        .d2{
+            background-color: red;
+        }
+        .d3{
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main" data-scroll-container>
+        <div class="d1" data-scroll-section	></div>
+        <div class="d2" data-scroll-section data-scroll-speed="2"		></div>
+        <div class="d3" data-scroll-section	></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="locomotive.js"></script>
+</body>
+</html>

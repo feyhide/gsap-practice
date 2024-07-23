@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .div1,.div2,.div3{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            width: 100%;
+            height: 1000px;
+            color: white;
+        }
+        .div2{
+            background-color: white;
+            color: white;
+        }
+        .div3{
+            margin-top: -1000px;
+            opacity: 0;
+            background: rgb(255,4,4);
+            background: linear-gradient(31deg, rgba(255,4,4,1) 0%, rgba(121,9,9,1) 64%, rgba(89,14,0,1) 100%);
+        }
+        p{
+            align-self: center;
+            font-family: fantasy;
+        }
+        .hello{
+            position: absolute;
+            top: 30%;
+            opacity: 0;
+            font-size: 40px;
+        }
+        .name{
+            position: absolute;
+            opacity: 0;
+            top: 35%;
+            font-size: 50px;
+        }
+        .txt2{
+            opacity: 0;
+            position: absolute;
+            color: black;
+            font-size: 100px;
+            top: 0;
+        }
+        .about{
+            position: absolute;
+            color: black;
+            font-size: 520px;
+            white-space: nowrap;
+            top: -15%;
+            left: 0%;
+        }
+        .set{
+            color: black;
+            display: flex;
+            width: 500px;
+            justify-content: space-between;
+            font-family: fantasy;
+            opacity: 0;
+            position: absolute;
+            top: 25%;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="div1">
+        <p class="hello">Hello My Name Is</p><p class="name">F1hadish</p>
+    </div>
+    <div class="div2">
+        <p class="txt2">Welcome</p><div class="set"><span>Skill</span><span>Photos</span></div>
+        <p class="about">FRONTEND DEVELOPER || CYBERSECURITY</p>
+    </div>
+    <div class="div3">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script> 
+    <script src="gsap.js" type="module"></script>
+</body>
+</html>
